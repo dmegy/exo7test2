@@ -23,15 +23,18 @@ $.get('file.txt', function (response) {
 
 
 function charger(){
-	var n=document.getElementById("monNumero");
-	
-	var URL="exercices/ex00000"+n+".txt";
-	console.log("on charge l'exercice"+n+", son adresse est "+URL);
-	$.get(URL, function (response) {
-    	mesExercices[n] = response;
-    	console.log("chargement de l'exercice "+n+" terminé");
-    	console.log(mesExercices[n]);
-	});
+	var n=document.getElementById("monNumero").value;
+
+	// on charge l'exo mais uniquement s'il n'est pas encore chargé :
+	if(mesExercices[n]==undefined || mesExercices[n]==""){
+		var URL="exercices/ex00000"+n+".txt";
+		console.log("on charge l'exercice"+n+", son adresse est "+URL);
+		$.get(URL, function (response) {
+	    	mesExercices[n] = response;
+	    	console.log("chargement de l'exercice "+n+" terminé");
+	    	console.log(mesExercices[n]);
+		});
+	}
 }
 </script>
 
