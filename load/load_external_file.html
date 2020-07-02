@@ -10,6 +10,12 @@
 
 <script type="text/javascript">
 $("#identifiant").load("file.txt");
+
+var maVariable;
+$.get('file.txt', function (response) {
+    maVariable = response;
+    console.log(maVariable);
+});
 </script>
 
 </body>
