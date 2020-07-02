@@ -12,13 +12,11 @@
         console.log( obj );
 
         // YAML file to Javascript object
-        //$.get( 'holomorphie.tex.yaml', function( data ) {
-        //    var obj = jsyaml.load( data );
-        //    console.log( obj );
-        //});
+        $.get( 'holomorphie.tex.yaml', function( data ) {
+            var obj = jsyaml.load( data );
+            console.log( obj );
+        });
 
-        var obj2 = jsyaml.load('holomorphie.tex.yaml');
-        console.log(obj2);
 
 
     </script>
