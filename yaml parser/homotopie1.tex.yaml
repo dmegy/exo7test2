@@ -1,0 +1,368 @@
+---
+section: Homotopie 1
+
+tags:
+    - niveau: L3
+
+type: onlyone
+
+question: |
+        Un ouvert connexe de \(\mathbb C\)  est simplement connexe.
+
+answers: 
+    - value: |
+        Vrai
+      correct: False
+
+    - value: |
+        Faux
+      correct: True
+
+explanations: |
+        L'ouvert \(\mathbb C^*\) est connexe mais non simplement connexe.
+
+---
+section: Homotopie 1
+
+tags:
+    - niveau: L3
+
+type: onlyone
+
+question: |
+        Un ouvert simplement connexe de \(\mathbb C\)  est connexe.
+
+answers: 
+    - value: |
+        Vrai
+      correct: True
+
+    - value: |
+        Faux
+      correct: False
+
+explanations: |
+        C'est dans la définition de simple connexité.
+
+---
+section: Homotopie 1
+
+tags:
+    - niveau: L3
+
+type: onlyone
+
+question: |
+        Deux chemins de \(\mathbb C\) sont homotopes.
+
+answers: 
+    - value: |
+        Vrai
+      correct: True
+
+    - value: |
+        Faux
+      correct: False
+
+explanations: |
+        On considère l'homotopie \( H(s,t)=s\gamma_1(t)+(1-s)\gamma_2(t) \). Comme \(\mathbb C\) est convexe,  ça marche. A priori cette homotopie ne convient plus pour un ouvert quelconque, ce qui ne veut pas dire que le résultat est faux. (Mais c'est effectivement faux en général.)
+
+---
+section: Homotopie 1
+
+tags:
+    - niveau: L3
+
+type: onlyone
+
+question: |
+        Deux chemins d'un ouvert \(U\subset \mathbb C\) sont homotopes.
+
+answers: 
+    - value: |
+        Vrai
+      correct: False
+
+    - value: |
+        Faux
+      correct: True
+
+explanations: |
+        L'ouvert  n'est pas forcément connexe. Si l'image du premier chemin est dans une composante connexe, et l'image du deuxième chemin est dans une autre, ils ne pourront pas être homotopes.
+
+---
+section: Homotopie 1
+
+tags:
+    - niveau: L3
+
+type: onlyone
+
+question: |
+        Deux chemins de mêmes extrémités d'un ouvert \(U\subset \mathbb C\) sont homotopes.
+
+answers: 
+    - value: |
+        Vrai
+      correct: True
+
+    - value: |
+        Faux
+      correct: False
+
+explanations: |
+        Homotopes, pas strictement homotopes. Remarquer que comme les chemins ont les mêmes extremités, ils sont dans la même composante connexe. On commence par homotoper \(\gamma_1\) sur le lacet constant d'image \(\gamma_1(0)=\gamma_2(0)\), et ensuite on l'homotope sur \(\gamma_2\).
+
+---
+section: Homotopie 1
+
+tags:
+    - niveau: L3
+
+type: onlyone
+
+question: |
+        Deux chemins de mêmes extrémités de \(\mathbb C\) sont strictement homotopes.
+
+answers: 
+    - value: |
+        Vrai
+      correct: True
+
+    - value: |
+        Faux
+      correct: False
+
+explanations: |
+        On utilise toujours l'homotopie \( H(s,t)=s\gamma_1(t)+(1-s)\gamma_2(t) \), qui se révèle être une homotopie stricte si les deux lacets ont mêmes extrémités.
+
+---
+section: Homotopie 1
+
+tags:
+    - niveau: L3
+
+type: onlyone
+
+question: |
+        Deux chemins de mêmes extrémités d'un ouvert \(U\subset \mathbb C\)  sont strictement homotopes.
+
+answers: 
+    - value: |
+        Vrai
+      correct: False
+
+    - value: |
+        Faux
+      correct: True
+
+explanations: |
+        C'est faux si l'ouvert n'est pas simplement connexe. Par exemple dans \(\mathbb C^*\), les lacets \(\gamma_1 :[0,\pi] \to \mathbb C^*, t\mapsto e^{it}\) et \(\gamma_1 :[0,\pi] \to \mathbb C^*, t\mapsto e^{-it}\) ont mêmes extrémités mais ne sont pas homotopes. On le voit car l'intégrale de \(\frac{dz}{z}\) le long de \(\gamma_1\) vaut \(i\pi\) alors que celle le long de \(\gamma_2\) vaut \(-i\pi\). Si les chemins étaient strictement homotopes, les deux intégrales seraient égales. (Corollaire 2.3 de Cauchy homotopique du cours.)
+
+---
+section: Homotopie 1
+
+tags:
+    - niveau: L3
+
+type: onlyone
+
+question: |
+        Deux chemins d'un ouvert connexe \(U\subset \mathbb C\) sont homotopes.
+
+answers: 
+    - value: |
+        Vrai
+      correct: True
+
+    - value: |
+        Faux
+      correct: False
+
+explanations: |
+        On homotope chaque chemin à son point de départ, puis on homotope le premier point de départ sur le second par connexité.
+
+---
+section: Homotopie 1
+
+tags:
+    - niveau: L3
+
+type: onlyone
+
+question: |
+        Deux chemins d'un ouvert simplement connexe \(U\subset \mathbb C\) sont homotopes.
+
+answers: 
+    - value: |
+        Vrai
+      correct: True
+
+    - value: |
+        Faux
+      correct: False
+
+explanations: |
+        Un ouvert simplement connexe est connexe.
+
+---
+section: Homotopie 1
+
+tags:
+    - niveau: L3
+
+type: onlyone
+
+question: |
+        Deux lacets de \(\mathbb C\) sont homotopes.
+
+answers: 
+    - value: |
+        Vrai
+      correct: True
+
+    - value: |
+        Faux
+      correct: False
+
+explanations: |
+        De toute façon deux chemins de \(\mathbb C\) sont homotopes, lacets ou pas.
+
+---
+section: Homotopie 1
+
+tags:
+    - niveau: L3
+
+type: onlyone
+
+question: |
+        Deux lacets de \(\mathbb C\) sont homotopes au sens des lacets.
+
+answers: 
+    - value: |
+        Vrai
+      correct: True
+
+    - value: |
+        Faux
+      correct: False
+
+explanations: |
+        Comme \(\mathbb C\) est étoilé en l'origine, tout lacet est homotope au lacet constant d'image l'origine. Alternativement, remarquer aussi que l'homotopie \( H(s,t)=s\gamma_1(t)+(1-s)\gamma_2(t) \)  répond à la question, car c'est une homotopie au sens des lacets si les deux chemins sont des lacets.
+
+---
+section: Homotopie 1
+
+tags:
+    - niveau: L3
+
+type: onlyone
+
+question: |
+        Deux lacets d'un ouvert connexe \(U\subset\mathbb C\) sont homotopes.
+
+answers: 
+    - value: |
+        Vrai
+      correct: True
+
+    - value: |
+        Faux
+      correct: False
+
+explanations: |
+        Homotopes, pas homotopes au sens des lacets, attention. Donc on peut "ouvrir" un lacet pendant l'homotopie.
+
+---
+section: Homotopie 1
+
+tags:
+    - niveau: L3
+
+type: onlyone
+
+question: |
+        Un lacet d'un ouvert  \(U\subset\mathbb C\) est homotope à un lacet constant.
+
+answers: 
+    - value: |
+        Vrai
+      correct: True
+
+    - value: |
+        Faux
+      correct: False
+
+explanations: |
+        Homotopes, pas homotopes au sens des lacets, attention. Donc on peut "ouvrir" un lacet pendant l'homotopie.
+
+---
+section: Homotopie 1
+
+tags:
+    - niveau: L3
+
+type: onlyone
+
+question: |
+        Deux lacets d'un ouvert connexe \(U\subset\mathbb C\) sont homotopes au sens des lacets.
+
+answers: 
+    - value: |
+        Vrai
+      correct: False
+
+    - value: |
+        Faux
+      correct: True
+
+explanations: |
+        Pas si l'ouvert n'est pas simplement connexe. Exemple, dans \(U=\mathbb C^*\), \(\gamma_1(\theta)=e^{i\theta}\) et \(\gamma_2(\theta) = 2+e^{i\theta}\). Ils ne sont pas homotopes au sens des lacets car l'intégrale de \(\frac{dz}{z}\) le long de ces deux lacets est différente.
+
+---
+section: Homotopie 1
+
+tags:
+    - niveau: L3
+
+type: onlyone
+
+question: |
+        Deux lacets d'un ouvert simplement connexe \(U\subset\mathbb C\) sont homotopes au sens des lacets.
+
+answers: 
+    - value: |
+        Vrai
+      correct: True
+
+    - value: |
+        Faux
+      correct: False
+
+explanations: |
+        Par définition, chaque lacet est homotope au sens des lacets à un lacet constant. Ensuite comme l'ouvert est connexe, on homotope ces deux lacets constants (au sens des lacets).
+
+---
+section: Homotopie 1
+
+tags:
+    - niveau: L3
+
+type: onlyone
+
+question: |
+        Un lacet d'un ouvert simplement connexe \(U\subset\mathbb C\) est homotope au sens des lacets à un lacet constant.
+
+answers: 
+    - value: |
+        Vrai
+      correct: True
+
+    - value: |
+        Faux
+      correct: False
+
+explanations: |
+        C'est dans la définition de simple connexité.
+

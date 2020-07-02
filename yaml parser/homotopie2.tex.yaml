@@ -1,0 +1,75 @@
+---
+section: Homotopie 2
+
+tags:
+    - niveau: L3
+
+question: |
+        Soit \(\gamma_1 = [0,1]\to \mathbb C, t\mapsto -1-it\) et \(\gamma_2 = [0,1]\to \mathbb C, t\mapsto 1-it\).
+        
+
+answers: 
+    - value: |
+        Dans  \(U=\mathbb C\), le chemin \(\gamma_1\) est homotope à \(\gamma_2\).
+      correct: True
+
+    - value: |
+        Dans  \(U=\mathbb C^*\), le chemin \(\gamma_1\) est homotope à \(\gamma_2\).
+      correct: True
+
+    - value: |
+        Dans  \(U=\mathbb C\), la formule \(H(s,t)=s+(1-s)\gamma_1(t)\) pour \((s,t)\in[0,1]\times[0,1]\) définit une homotopie entre \(\gamma_1\) et le chemin constant égal à \(1\).
+      correct: True
+
+    - value: |
+        Dans  \(U=\mathbb C^*\), la formule \(H(s,t)=s+(1-s)\gamma_1(t)\) pour \((s,t)\in[0,1]\times[0,1]\) définit une homotopie entre \(\gamma_1\) et le chemin constant égal à \(1\).
+      correct: False
+
+    - value: |
+        Dans  \(U=\mathbb C\), la formule \(H(s,t)=is+(1-s)\gamma_1(t)\) pour \((s,t)\in[0,1]\times[0,1]\) définit une homotopie entre \(\gamma_1\) et le chemin constant égal à \(i\).
+      correct: True
+
+    - value: |
+        Dans  \(U=\mathbb C^*\), la formule \(H(s,t)=is+(1-s)\gamma_1(t)\) pour \((s,t)\in[0,1]\times[0,1]\) définit une homotopie entre \(\gamma_1\) et le chemin constant égal à \(i\).
+      correct: True
+
+    - value: |
+        Dans  \(U=\mathbb C^*\), la formule \(H(s,t)=s\gamma_2(t)+(1-s)\gamma_1(t)\) pour \((s,t)\in[0,1]\times[0,1]\) définit une homotopie entre \(\gamma_1\) et \(\gamma_2\).
+      correct: False
+
+    - value: |
+        Dans  \(U=\mathbb C^*\), la formule \(H(s,t)=1-e^{-i\pi s}+\gamma_1(t)\) pour \((s,t)\in[0,1]\times[0,1]\) définit une homotopie entre \(\gamma_1\) et \(\gamma_2\).
+      correct: False
+
+    - value: |
+        Dans  \(U=\mathbb C^*\), la formule \(H(s,t)=1-e^{i\pi s}+\gamma_1(t)\) pour \((s,t)\in[0,1]\times[0,1]\) définit une homotopie entre \(\gamma_1\) et \(\gamma_2\).
+      correct: True
+
+    - value: |
+        Dans  \(U=\mathbb C^*\), la formule \(H(s,t)=e^{i\pi s}\gamma_1(t)\) pour \((s,t)\in[0,1]\times[0,1]\) définit une homotopie entre \(\gamma_1\) et \(\gamma_2\).
+      correct: False
+
+    - value: |
+        Dans  \(U=\mathbb C\), la formule \(H(s,t)=e^{i\pi s}\gamma_1(t)\) pour \((s,t)\in[0,1]\times[0,1]\) définit une homotopie entre \(\gamma_1\) et \(\gamma_2\).
+      correct: False
+
+    - value: |
+        Dans  \(U=\mathbb C^*\), la formule \(H(s,t)=e^{i\pi s}\gamma_1(t)\) pour \((s,t)\in[0,1]\times[0,1]\) définit une homotopie entre \(\gamma_1\) et \(\gamma_2^{op}\).
+      correct: False
+
+    - value: |
+        Dans  \(U=\mathbb C\), la formule \(H(s,t)=e^{i\pi s}\gamma_1(t)-is\) pour \((s,t)\in[0,1]\times[0,1]\) définit une homotopie entre \(\gamma_1\) et \(\gamma_2\).
+      correct: False
+
+    - value: |
+        Dans  \(U=\mathbb C^*\), la formule \(H(s,t)=e^{i\pi s}\gamma_1(t)-is\) pour \((s,t)\in[0,1]\times[0,1]\) définit une homotopie entre \(\gamma_1\) et \(\gamma_2^{op}\).
+      correct: True
+
+    - value: |
+        Dans  \(U=\mathbb C^*\), la formule \(H(s,t)=e^{-i\pi s}\gamma_1(t)-is\) pour \((s,t)\in[0,1]\times[0,1]\) définit une homotopie entre \(\gamma_1\) et \(\gamma_2^{op}\).
+      correct: True
+
+    - value: |
+        Dans  \(U=\mathbb C\), la formule \(H(s,t)=s\gamma_2(t)+(1-s)\gamma_1(t)\) pour \((s,t)\in[0,1]\times[0,1]\) définit une homotopie entre \(\gamma_1\) et \(\gamma_2\).
+      correct: True
+

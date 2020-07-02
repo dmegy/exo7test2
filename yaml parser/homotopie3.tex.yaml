@@ -1,0 +1,165 @@
+---
+section: Homotopie 3
+
+tags:
+    - niveau: L3
+
+question: |
+        Soit \(\gamma : [0,\pi]\to \mathbb C, t\mapsto e^{it}\). Pour tout \((s,t)\in[0,1]\times[0,\pi]\) on note \(H(s,t)= e^{ist}\).
+
+answers: 
+    - value: |
+        Dans l'ouvert  \(U:=\mathbb C\), \(H\) définit une homotopie entre le chemin constant \(1\) et \(\gamma\).
+      correct: True
+
+    - value: |
+        Dans  l'ouvert  \(U:=\mathbb C^*\),  \(H\) définit une homotopie entre le chemin constant \(1\) et \(\gamma\).
+      correct: True
+
+    - value: |
+        Dans  l'ouvert  \(U:=\mathbb C\),  \(H\) définit une homotopie stricte entre le chemin constant \(1\) et \(\gamma\).
+      correct: False
+
+---
+section: Homotopie 3
+
+tags:
+    - niveau: L3
+
+question: |
+        Soit \(\gamma : [0,2\pi]\to \mathbb C, t\mapsto e^{it}\).
+
+answers: 
+    - value: |
+        Dans l'ouvert \(U:=\mathbb C\), la formule \(H(s,t)= e^{ist}\) définit une homotopie  entre le chemin constant \(1\) et \(\gamma\).
+      correct: True
+
+    - value: |
+        Dans l'ouvert  \(U:=\mathbb C^*\), la formule \(H(s,t)= e^{ist}\)  définit une homotopie  entre le chemin constant \(1\) et \(\gamma\).
+      correct: True
+
+    - value: |
+        Dans  l'ouvert \(U:=\mathbb C\), la formule \(H(s,t)= e^{ist}\) définit une homotopie au sens des lacets entre le chemin constant \(1\) et \(\gamma\).
+      correct: False
+
+    - value: |
+        Dans  l'ouvert \(U:=\mathbb C\), la formule \(H(s,t)= se^{it}\)  définit une homotopie  entre le chemin constant \(0\) et \(\gamma\).
+      correct: True
+
+    - value: |
+        Dans  l'ouvert \(U=\mathbb C\), la formule \(H(s,t)= 1+s(e^{it}-1)\)  définit une homotopie  au sens des lacets entre le chemin constant \(1\) et \(\gamma\).
+      correct: True
+
+    - value: |
+        Dans  l'ouvert \(U:=\mathbb C^*\), la formule \(H(s,t)= 1+s(e^{it}-1)\)  définit une homotopie  entre le chemin constant \(1\) et \(\gamma\).
+      correct: False
+
+    - value: |
+        Dans l'ouvert  \(U:=\mathbb C^*\), la formule \(H(s,t)= e^{i(2\pi s +t)}\)  définit une homotopie au sens des lacets entre \(\gamma\) et \(\gamma\).
+      correct: True
+
+    - value: |
+        Dans  l'ouvert \(U:=\mathbb C^*\), la formule \(H(s,t)= e^{i(2\pi s +t)}\)  définit une homotopie stricte entre \(\gamma\) et \(\gamma\).
+      correct: False
+
+---
+section: Homotopie 3
+
+tags:
+    - niveau: L3
+
+question: |
+        On définit les chemins suivants:
+        \[
+        \gamma_1 : [0,\pi]\to \mathbb C, t\mapsto e^{it};\quad
+        \gamma_2 :  [0,\pi]\to \mathbb C, t\mapsto e^{-it};\]
+
+answers: 
+    - value: |
+        Dans l'ouvert \(U:=\mathbb C\), la formule \(H(s,t)=(1-2s)\gamma_1(t)\) pour \((s,t)\in[0,1]\times[0,\pi]\) définit une homotopie  entre \(\gamma_1\) et \(\gamma_2\).
+      correct: False
+
+    - value: |
+        Dans l'ouvert \(U:=\mathbb C\), la formule \(H(s,t)=(1-2s)\gamma_1(t)\) pour \((s,t)\in[0,1]\times[0,\pi]\) définit une homotopie  entre \(\gamma_1\) et \(\gamma_2^{op}\).
+      correct: True
+
+    - value: |
+        Dans l'ouvert \(U:=\mathbb C^*\), la formule \(H(s,t)=(1-2s)\gamma_1(t)\) pour \((s,t)\in[0,1]\times[0,\pi]\) définit une homotopie  entre \(\gamma_1\) et \(\gamma_2^{op}\).
+      correct: False
+
+    - value: |
+        Dans l'ouvert \(U:=\mathbb C\), la formule \(H(s,t)=\cos(t)+(1-2s)i\sin(t)\) pour \((s,t)\in[0,1]\times[0,\pi]\) définit une homotopie stricte entre \(\gamma_1\) et \(\gamma_2\).
+      correct: True
+
+    - value: |
+        Dans l'ouvert \(U:=\mathbb C^*\), la formule \(H(s,t)=\cos(t)+(1-2s)i\sin(t)\) pour \((s,t)\in[0,1]\times[0,\pi]\) définit une homotopie entre \(\gamma_1\) et \(\gamma_2\).
+      correct: False
+
+---
+section: Homotopie 3
+
+tags:
+    - niveau: L3
+
+question: |
+        Pour \(t\in[0,\pi]\), on note \(\gamma_1(t)=e^{it}\) et \(\gamma_2(t)=e^{-it}\).
+
+answers: 
+    - value: |
+        Dans l'ouvert \(U:=\mathbb C\),  \(\gamma_1\) et \(\gamma_2\) sont homotopes.
+      correct: True
+
+    - value: |
+        Dans l'ouvert \(U:=\mathbb C\),  \(\gamma_1\) et \(\gamma_2\) sont strictement homotopes.
+      correct: True
+
+    - value: |
+        Dans l'ouvert \(U:=\mathbb C^*\),  \(\gamma_1\) et \(\gamma_2\) sont homotopes.
+      correct: True
+
+    - value: |
+        Dans l'ouvert \(U:=\mathbb C^*\),  \(\gamma_1\) et \(\gamma_2\) sont strictement homotopes.
+      correct: False
+
+---
+section: Homotopie 3
+
+tags:
+    - niveau: L3
+
+question: |
+        Pour \(t\in[0,\pi]\), on note \(\alpha(t)=e^{it}\), \(\beta(t)=e^{-it}\) et \(\gamma(t)=2+it\).
+
+answers: 
+    - value: |
+        Dans l'ouvert \(U:=\mathbb C^*\), la formule \(H(s,t)=s\alpha(t)+(1-s)\gamma(t)\) pour \((s,t)\in[0,1]\times[0,\pi]\) définit une homotopie  entre \(\gamma\) et \(\alpha\).
+      correct: True
+
+    - value: |
+        Dans l'ouvert \(U:=\mathbb C^*\), la formule \(H(s,t)=s\alpha(t)+(1-s)\gamma^{op}(t)\) pour \((s,t)\in[0,1]\times[0,\pi]\) définit une homotopie  entre \(\gamma^{op}\) et \(\alpha\).
+      correct: False
+
+    - value: |
+        Dans l'ouvert \(U:=\mathbb C\setminus \{1+2i\}\), la formule \(H(s,t)=s\alpha(t)+(1-s)\gamma(t)\) pour \((s,t)\in[0,1]\times[0,\pi]\) définit une homotopie  entre \(\gamma\) et \(\alpha\).
+      correct: False
+
+    - value: |
+        Dans l'ouvert \(U:=\mathbb C\setminus \{1+2i\}\), la formule \(H(s,t)=s\alpha(t)+(1-s)\gamma^{op}(t)\) pour \((s,t)\in[0,1]\times[0,\pi]\) définit une homotopie  entre \(\gamma^{op}\) et \(\alpha\).
+      correct: True
+
+    - value: |
+        Dans l'ouvert \(U:=\mathbb C\setminus i\mathbb R_-\), la formule \(H(s,t)=s\alpha(t)+(1-s)\gamma(t)\) pour \((s,t)\in[0,1]\times[0,\pi]\) définit une homotopie  entre \(\gamma\) et \(\alpha\).
+      correct: True
+
+    - value: |
+        Dans l'ouvert \(U:=\mathbb C^*\), la formule \(H(s,t)=s\beta(t)+(1-s)\gamma(t)\) pour \((s,t)\in[0,1]\times[0,\pi]\) définit une homotopie  entre \(\gamma\) et \(\beta\).
+      correct: False
+
+    - value: |
+        Dans l'ouvert \(U:=\mathbb C\setminus i\mathbb R_+\), la formule \(H(s,t)=s\beta(t)+(1-s)\gamma(t)\) pour \((s,t)\in[0,1]\times[0,\pi]\) définit une homotopie  entre \(\gamma\) et \(\beta\).
+      correct: False
+
+    - value: |
+        Dans l'ouvert \(U:=\mathbb C\setminus (i+i\mathbb R_+)\), la formule \(H(s,t)=s\beta(t)+(1-s)\gamma(t)\) pour \((s,t)\in[0,1]\times[0,\pi]\) définit une homotopie  entre \(\gamma\) et \(\beta\).
+      correct: False
+
