@@ -1,0 +1,1 @@
+Exercice 4 avec les nouvelles balises \( \sum_{k=1}^n k^2\)

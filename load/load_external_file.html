@@ -11,12 +11,34 @@
 <script type="text/javascript">
 $("#identifiant").load("file.txt");
 
+var mesExercices = new Array();
+
 var maVariable;
+
 $.get('file.txt', function (response) {
     maVariable = response;
     console.log(maVariable);
 });
+
+
+
+function charger(){
+	var n=document.getElementById("monNumero");
+	
+	var URL="exercices/ex00000"+n+".txt";
+	console.log("on charge l'exercice"+n+", son adresse est "+URL);
+	$.get(URL, function (response) {
+    	mesExercices[n] = response;
+    	console.log("chargement de l'exercice "+n+" terminé");
+    	console.log(mesExercices[n]);
+	});
+}
 </script>
+
+
+<input type="text" value="1234" id="monNumero">
+
+<a href="#" onclick="charger()">Charger l'exercice</a> (numéros de 1 à 5 uniquement)
 
 </body>
 </html>
